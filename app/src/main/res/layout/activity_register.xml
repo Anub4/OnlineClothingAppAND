@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/etFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#ddd"
+        android:hint="Enter First Name"
+        android:inputType="text"
+        android:paddingLeft="8dp"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/etLastName"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#ddd"
+        android:hint="Enter Last Name"
+        android:inputType="text"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="8dp"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#ddd"
+        android:hint="Enter Username"
+        android:inputType="text"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="8dp"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="8dp"
+        android:background="#ddd"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:paddingLeft="8dp"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="#fff" />
+
+</LinearLayout>
